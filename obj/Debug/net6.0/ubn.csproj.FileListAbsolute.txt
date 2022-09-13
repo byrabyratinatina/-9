@@ -1,0 +1,15 @@
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\bin\Debug\net6.0\ubn.exe
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\bin\Debug\net6.0\ubn.deps.json
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\bin\Debug\net6.0\ubn.runtimeconfig.json
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\bin\Debug\net6.0\ubn.dll
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\bin\Debug\net6.0\ubn.pdb
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\obj\Debug\net6.0\ubn.csproj.AssemblyReference.cache
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\obj\Debug\net6.0\ubn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\obj\Debug\net6.0\ubn.AssemblyInfoInputs.cache
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\obj\Debug\net6.0\ubn.AssemblyInfo.cs
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\obj\Debug\net6.0\ubn.csproj.CoreCompileInputs.cache
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\obj\Debug\net6.0\ubn.dll
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\obj\Debug\net6.0\refint\ubn.dll
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\obj\Debug\net6.0\ubn.pdb
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\obj\Debug\net6.0\ubn.genruntimeconfig.cache
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\obj\Debug\net6.0\ref\ubn.dll
