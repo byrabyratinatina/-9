@@ -1,0 +1,15 @@
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\bin\Debug\net6.0\eexx001.exe
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\bin\Debug\net6.0\eexx001.deps.json
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\bin\Debug\net6.0\eexx001.runtimeconfig.json
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\bin\Debug\net6.0\eexx001.dll
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\bin\Debug\net6.0\eexx001.pdb
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\obj\Debug\net6.0\eexx001.csproj.AssemblyReference.cache
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\obj\Debug\net6.0\eexx001.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\obj\Debug\net6.0\eexx001.AssemblyInfoInputs.cache
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\obj\Debug\net6.0\eexx001.AssemblyInfo.cs
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\obj\Debug\net6.0\eexx001.csproj.CoreCompileInputs.cache
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\obj\Debug\net6.0\eexx001.dll
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\obj\Debug\net6.0\refint\eexx001.dll
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\obj\Debug\net6.0\eexx001.pdb
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\obj\Debug\net6.0\eexx001.genruntimeconfig.cache
+C:\Users\andre.DESKTOP-QNFSPQQ\OneDrive\Desktop\ubn\ex001\eexx001\obj\Debug\net6.0\ref\eexx001.dll
