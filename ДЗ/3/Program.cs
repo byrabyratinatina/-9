@@ -1,4 +1,12 @@
-﻿int day = new Random().Next(1,8);
-Console.WriteLine($"День {day}");
-if (day > 5) Console.WriteLine("ВЫХОДНОЙ УРА!!!!");
-else Console.WriteLine ("Будничный день");
+﻿int number = ReadInt("Введите число N: ");
+
+for (int i = 1; i <= number; i++)
+{ 
+    Console.Write($"{i*i*i} ");
+}
+
+int ReadInt(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
