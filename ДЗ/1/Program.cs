@@ -1,19 +1,17 @@
-﻿Console.WriteLine("Введите число: ");
-string number = Console.ReadLine();
-int len = number.Length;
+﻿int Exponentiation(int numberA, int numberB){
+  int result = 1;
+  for(int i=1; i <= numberB; i++)
+  {
+    result = result * numberA;
+  }
+    // int result = Math.Pow(numberA, numberB);
+    return result;
+}
 
-if (len == 5)
-{
-    if (number[0] == number[4] && number[1] == number[3])
-    {
-        Console.WriteLine($"{number} - Палиндром");
-    }
-    else
-    {
-        Console.WriteLine($"{number} - НЕ палиндром");
-    }
-}
-else
-{
-    Console.WriteLine($"ОШИБКА: {number} - не является пятизначным");
-}
+  Console.Write("Введите число A: ");
+  int numberA = Convert.ToInt32(Console.ReadLine());
+  Console.Write("Введите число B: ");
+  int numberB = Convert.ToInt32(Console.ReadLine());
+
+  int exponentiation = Exponentiation(numberA, numberB);
+  Console.WriteLine("Ответ: " + exponentiation);

@@ -1,19 +1,19 @@
-﻿int x1 = ReadInt("Введите координату X первой точки: ");
-int y1 = ReadInt("Введите координату Y первой точки: ");
-int z1 = ReadInt("Введите координату Z первой точки: ");
-int x2 = ReadInt("Введите координату X второй точки: ");
-int y2 = ReadInt("Введите координату Y второй точки: ");
-int z2 = ReadInt("Введите координату Z второй точки: ");
+﻿Console.Write("Введите число N: ");
+int numberN = Convert.ToInt32(Console.ReadLine());
 
-int A = x2 - x1;
-int B = y2 - y1;
-int C = z1 - z2;
+  int SumNumber(int numberN){
+    
+    int counter = Convert.ToString(numberN).Length;
+    int advance = 0;
+    int result = 0;
 
-double length = Math.Sqrt(A * A + B * B + C * C);
-Console.WriteLine($"Длинна отрезка {length}");
+    for (int i = 0; i < counter; i++){
+      advance = numberN - numberN % 10;
+      result = result + (numberN - advance);
+      numberN = numberN / 10;
+    }
+   return result;
+  }
 
-int ReadInt(string message)
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
+int sumNumber = SumNumber(numberN);
+Console.WriteLine("Сумма цифр в числе: " + sumNumber);
