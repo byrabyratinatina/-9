@@ -1,17 +1,32 @@
-﻿int Exponentiation(int numberA, int numberB){
-  int result = 1;
-  for(int i=1; i <= numberB; i++)
-  {
-    result = result * numberA;
-  }
-    // int result = Math.Pow(numberA, numberB);
-    return result;
+﻿Console.WriteLine("Введите размер массива");
+int size = Convert.ToInt32(Console.ReadLine());
+int[] numbers = new int[size];
+int count = 0;
+FillArrayRandomNumbers(numbers);
+PrintArray(numbers);
+
+
+for (int i = 0; i < numbers.Length; i++)
+{
+    if (numbers[i] % 2 == 0)
+    count++;
 }
 
-  Console.Write("Введите число A: ");
-  int numberA = Convert.ToInt32(Console.ReadLine());
-  Console.Write("Введите число B: ");
-  int numberB = Convert.ToInt32(Console.ReadLine());
 
-  int exponentiation = Exponentiation(numberA, numberB);
-  Console.WriteLine("Ответ: " + exponentiation);
+Console.WriteLine($"количество чётных чисел в массиве -> {count} ");
+
+void FillArrayRandomNumbers(int[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        array[i] = new Random().Next(100,1000);
+    }
+}
+void PrintArray(int[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}

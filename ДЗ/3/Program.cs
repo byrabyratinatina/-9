@@ -1,73 +1,43 @@
-﻿Console.Write("Введите ряд чисел, разделенных запятой : ");
-string? seriesOfNumbers = Console.ReadLine();
+﻿int size = 10;
+int[] numbers = new int[size];
+FillArrayRandomNumbers(numbers);
+PrintArray(numbers);
 
-seriesOfNumbers = seriesOfNumbers + ",";   
+int max = numbers[0];
+int min = numbers[0];
 
-string RemovingSpaces (string series){
-  string seriesNew = "";
-  for (int i = 0; i < series.Length; i++)
-  {
-    if (series[i] != ' ') 
+for (int i = 0; i < numbers.Length; i++)
+{
+    if (numbers[i] > max)
     {
-      seriesNew += series[i];
+        max = numbers[i];
     }
-  }
-  return seriesNew;
+    else if (numbers[i] < min)
+    {
+        min = numbers[i];
+    }
 }
 
-void СheckNumber2 (int  series){
+Console.WriteLine($"Минимальное число: {min}");
+Console.WriteLine($"Минимальное число: {max}");
+Console.WriteLine($"Разница между максимальным и минимальным числами: {max-min}");
 
-      if (series == '0'||series == '1'||series == '2'
-      ||series == '3'||series == '4'||series == '5'||series == '6'
-      ||series == '7'||series == '8'||series == '9'||series == ','
-      ||series == '-')
-      {
-      }
-        else {
-          Console.WriteLine($"Ошибка ввода  символа. Вводи цифры.");
 
-      }
+
+void FillArrayRandomNumbers(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = new Random().Next(1, 555);
+    }
 }
 
-int[] ArrayOfNumbers(string seriesNew){ 
 
-  int[] arrayOfNumbers = new int[1];    
-
-  int j =0;
-
-  for (int i = 0; i < seriesNew.Length; i++){
-    string seriesNew1 = "";
-
-    while (seriesNew[i] != ',' && i < seriesNew.Length){
-      seriesNew1 += seriesNew[i];
-      СheckNumber2(seriesNew[i]);
-      i++;
+void PrintArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
     }
-    arrayOfNumbers[j] = Convert.ToInt32(seriesNew1);    
-    if (i < seriesNew.Length-1){
-      arrayOfNumbers = arrayOfNumbers.Concat(new int[] {0}).ToArray();    
-    }
-    j++;
-  }
-  return arrayOfNumbers;
+    Console.WriteLine();
 }
-
-void PrintArry(int[] coll){
-  int count = coll.Length;
-  int index = 0;
-  Console.Write("[");
-  while(index < count){
-    Console.Write(coll[index]);
-    index++;
-    if (index < count){
-      Console.Write(", ");
-    }
-  }
-  Console.Write("]");
-} 
-
-string seriesNew = RemovingSpaces(seriesOfNumbers);
-
-int[] arrayOfNumbers =  ArrayOfNumbers(seriesNew);
-
-PrintArry(arrayOfNumbers);

@@ -1,19 +1,31 @@
-﻿Console.Write("Введите число N: ");
-int numberN = Convert.ToInt32(Console.ReadLine());
+﻿int size = 4;
+int[] numbers = new int[size];
+FillArrayRandomNumbers(numbers);
+PrintArray(numbers);
 
-  int SumNumber(int numberN){
-    
-    int counter = Convert.ToString(numberN).Length;
-    int advance = 0;
-    int result = 0;
+int sumNumbersEvenIndex = 0;
 
-    for (int i = 0; i < counter; i++){
-      advance = numberN - numberN % 10;
-      result = result + (numberN - advance);
-      numberN = numberN / 10;
+for (int i = 1; i < numbers.Length; i += 2)
+{
+    sumNumbersEvenIndex += numbers[i];
+}
+Console.Write(sumNumbersEvenIndex);
+
+
+
+void FillArrayRandomNumbers(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = new Random().Next(-100, 101);
     }
-   return result;
-  }
+}
 
-int sumNumber = SumNumber(numberN);
-Console.WriteLine("Сумма цифр в числе: " + sumNumber);
+void PrintArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
