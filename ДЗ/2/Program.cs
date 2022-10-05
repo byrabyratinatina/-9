@@ -1,31 +1,13 @@
-﻿int size = 4;
-int[] numbers = new int[size];
-FillArrayRandomNumbers(numbers);
-PrintArray(numbers);
+﻿Console.WriteLine("введите значение b1");
+double b1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите число k1");
+double k1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите значение b2");
+double b2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите число k2");
+double k2 = Convert.ToInt32(Console.ReadLine());
 
-int sumNumbersEvenIndex = 0;
+double x = (-b2 + b1)/(-k1 + k2);
+double y = k2 * x + b2;
 
-for (int i = 1; i < numbers.Length; i += 2)
-{
-    sumNumbersEvenIndex += numbers[i];
-}
-Console.Write(sumNumbersEvenIndex);
-
-
-
-void FillArrayRandomNumbers(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = new Random().Next(-100, 101);
-    }
-}
-
-void PrintArray(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
+Console.WriteLine($"две прямые пересекутся в точке с координатами X: {x}, Y: {y}");
